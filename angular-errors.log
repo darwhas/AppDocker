@@ -1,0 +1,10 @@
+[error] Error: ENOENT: no such file or directory, lstat 'C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular\material'
+    at Object.realpathSync (fs.js:1728:7)
+    at C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\webpack\configs\styles.js:44:35
+    at Array.forEach (<anonymous>)
+    at Object.getStylesConfig (C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\webpack\configs\styles.js:35:76)
+    at C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\karma\index.js:28:19
+    at generateWebpackConfig (C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\utils\webpack-browser-config.js:46:49)
+    at async Object.generateBrowserWebpackConfigFromContext (C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\utils\webpack-browser-config.js:137:20)
+    at async initialize (C:\Users\DARK\Desktop\aplicacion\AppDocker\node_modules\@angular-devkit\build-angular\src\karma\index.js:22:24)
+

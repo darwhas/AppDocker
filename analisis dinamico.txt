@@ -1,0 +1,43 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-13 15:00 Hora est. Pacífico, Sudamérica
+
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+
+NSE: Loaded 153 scripts for scanning.
+
+NSE: Script Pre-scanning.
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+NSE: Script Post-scanning.
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+Initiating NSE at 15:00
+
+Completed NSE at 15:00, 0.00s elapsed
+
+Read data files from: C:\Program Files (x86)\Nmap
+
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.80 seconds
+
+           Raw packets sent: 0 (0B) | Rcvd: 0 (0B)
+
+Unable to split netmask from target expression: "http://localhost:4200/create-employee"
+
+WARNING: No targets were specified, so 0 hosts scanned.

@@ -1,0 +1,94 @@
+DARK@DESKTOP-Q7O1Q1F MINGW64 ~/Desktop/aplicacion/AppDocker/backend (master)
+$ npm i --save-dev jasmine
+npm WARN rollback Rolling back node-pre-gyp@0.12.0 failed (this is probably harmless): EPERM: operation not permitted, rmdir 'C:\Users\DARK\Desktop\aplicacion\AppDocker\backend\node_modules\fsevents\node_modules'
+npm WARN backend@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ jasmine@3.6.3
+added 7 packages from 1 contributor and audited 366 packages in 4.425s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 142 vulnerabilities (107 low, 35 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+DARK@DESKTOP-Q7O1Q1F MINGW64 ~/Desktop/aplicacion/AppDocker/backend (master)
+$ npm audit fix
+npm WARN backend@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 2 packages and updated 8 packages in 4.668s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+fixed 138 of 142 vulnerabilities in 366 scanned packages
+  1 package update for 4 vulnerabilities involved breaking changes
+  (use `npm audit fix --force` to install breaking changes; or refer to `npm audit` for steps to fix these manually)
+
+DARK@DESKTOP-Q7O1Q1F MINGW64 ~/Desktop/aplicacion/AppDocker/backend (master)
+$ npm audit
+
+                       === npm audit security report ===
+
+# Run  npm install --save-dev nodemon@2.0.7  to resolve 4 vulnerabilities
+SEMVER WARNING: Recommended action is a potentially breaking change
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Dependency of   nodemon [dev]
+
+  Path            nodemon > chokidar > fsevents > node-pre-gyp > mkdirp >
+                  minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Dependency of   nodemon [dev]
+
+  Path            nodemon > chokidar > fsevents > node-pre-gyp > tar > mkdirp
+                  > minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Dependency of   nodemon [dev]
+
+  Path            nodemon > chokidar > fsevents > node-pre-gyp > rc > minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+
+
+  Low             Prototype Pollution
+
+  Package         ini
+
+  Dependency of   nodemon [dev]
+
+  Path            nodemon > chokidar > fsevents > node-pre-gyp > rc > ini
+
+  More info       https://npmjs.com/advisories/1589
+
+
+
+found 4 low severity vulnerabilities in 364 scanned packages
+  4 vulnerabilities require semver-major dependency updates.
