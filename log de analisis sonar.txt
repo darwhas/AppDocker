@@ -1,0 +1,93 @@
+C:\Users\DARK\Desktop\aplicacion\AppDocker>C:\sonar-scanner-4.5.0.2216-windows\bin\sonar-scanner.bat
+INFO: Scanner configuration file: C:\sonar-scanner-4.5.0.2216-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.5.0.2216
+INFO: Java 11.0.3 AdoptOpenJDK (64-bit)
+INFO: Windows 10 10.0 amd64
+INFO: User cache: C:\Users\DARK\.sonar\cache
+INFO: Scanner configuration file: C:\sonar-scanner-4.5.0.2216-windows\bin\..\conf\sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarQube server 7.9.5
+INFO: Default locale: "es_CO", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=56ms
+INFO: Server id: BF41A1F2-AXcCxBLTc6hcPeyRI3NT
+INFO: User cache: C:\Users\DARK\.sonar\cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=37ms
+INFO: Load/download plugins (done) | time=85ms
+INFO: Process project properties
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=4ms
+INFO: Project key: appdocker
+INFO: Base dir: C:\Users\DARK\Desktop\aplicacion\AppDocker
+INFO: Working dir: C:\Users\DARK\Desktop\aplicacion\AppDocker\.scannerwork
+INFO: Load project settings for component key: 'appdocker'
+INFO: Load project settings for component key: 'appdocker' (done) | time=36ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=81ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1809ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=32ms
+INFO: 34 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for css: Sonar way
+INFO: Quality profile for js: Sonar way
+INFO: Quality profile for ts: Sonar way
+INFO: Quality profile for web: Sonar way
+INFO: ------------- Run sensors on module appdocker
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=39ms
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/C:/Users/DARK/.sonar/cache/866bb1adbf016ea515620f1aaa15ec53/sonar-javascript-plugin.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+INFO: Sensor SonarCSS Metrics [cssfamily]
+INFO: Sensor SonarCSS Metrics [cssfamily] (done) | time=77ms
+INFO: Sensor SonarCSS Rules [cssfamily]
+INFO: Sensor SonarCSS Rules [cssfamily] (done) | time=6314ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+INFO: Sensor SonarJS [javascript]
+INFO: 1 source files to be analyzed
+INFO: Sensor SonarJS [javascript] (done) | time=171ms
+INFO: 1/1 source files have been analyzed
+INFO: Sensor ESLint-based SonarJS [javascript]
+INFO: 1 source files to be analyzed
+INFO: Sensor ESLint-based SonarJS [javascript] (done) | time=10010ms
+INFO: 1/1 source files have been analyzed
+INFO: Sensor JavaXmlSensor [java]
+INFO: Sensor JavaXmlSensor [java] (done) | time=2ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=141ms
+INFO: Sensor SonarTS [typescript]
+INFO: Analyzing 17 typescript file(s) with the following configuration file C:\Users\DARK\Desktop\aplicacion\AppDocker\tsconfig.json
+INFO: 17 files analyzed out of 17
+INFO: Sensor SonarTS [typescript] (done) | time=8117ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=21ms
+INFO: SCM provider for this project is: git
+INFO: 25 files to be analyzed
+INFO: 25/25 files analyzed
+INFO: 7 files had no CPD blocks
+INFO: Calculating CPD for 16 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 100ms, dir size=124 KB
+INFO: Analysis report compressed in 881ms, zip size=57 KB
+INFO: Analysis report uploaded in 66ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=appdocker
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AXcDTiemo2zahVtqIJWk
+INFO: Analysis total time: 33.863 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 35.440s
+INFO: Final Memory: 13M/54M
+INFO: ------------------------------------------------------------------------
